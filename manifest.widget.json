@@ -1,0 +1,21 @@
+{
+  "name": "Local Variables List",
+  "id": "1267845282461064762",
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "permissions": [
+    "teamlibrary"
+  ],
+  "containsWidget": true,
+  "main": "code.js",
+  "ui": "index.html",
+  "widgetApi": "1.0.0",
+  "networkAccess": {
+    "allowedDomains": [
+      "https://rsms.me"
+    ]
+  },
+  "documentAccess": "dynamic-page"
+}

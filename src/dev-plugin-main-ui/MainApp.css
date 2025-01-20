@@ -1,0 +1,15 @@
+@counter-style arrows {
+  system: fixed;
+  symbols: ← ↑;
+  suffix: " ";
+}
+
+ul {
+  list-style: arrows;
+}
+
+li {
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  font-family: Inter, sans-serif;
+}

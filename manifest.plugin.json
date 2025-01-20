@@ -1,0 +1,239 @@
+{
+  "name": "Local Variables List for Devs",
+  "id": "1257675292395282880",
+  "api": "1.0.0",
+  "editorType": [
+    "dev"
+  ],
+  "permissions": [
+    "teamlibrary"
+  ],
+  "capabilities": [
+    "codegen",
+    "inspect"
+  ],
+  "main": "code.js",
+  "ui": {
+    "settings": "settings-ui/index.html",
+    "main": "main-ui/index.html"
+  },
+  "codegenLanguages": [
+    {
+      "label": "CSS custom properties (variables)",
+      "value": "css"
+    },
+    {
+      "label": "tokens.json",
+      "value": "json"
+    }
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "codegenPreferences": [
+    {
+      "itemType": "unit",
+      "scaledUnit": "rem",
+      "defaultScaleFactor": 16,
+      "default": true,
+      "includedLanguages": [
+        "css",
+        "json"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "tabSize",
+      "label": "Tab Size",
+      "options": [
+        {
+          "label": "2",
+          "value": "2",
+          "isDefault": true
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        }
+      ],
+      "includedLanguages": [
+        "css",
+        "json"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "useCodeSyntaxName",
+      "label": "Use code syntax name",
+      "options": [
+        {
+          "label": "Disable",
+          "value": "false",
+          "isDefault": true
+        },
+        {
+          "label": "Enable",
+          "value": "true"
+        }
+      ],
+      "includedLanguages": [
+        "css"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "separateCollections",
+      "label": "Separate collections",
+      "options": [
+        {
+          "label": "Disable",
+          "value": "false",
+          "isDefault": true
+        },
+        {
+          "label": "Enable",
+          "value": "true"
+        }
+      ],
+      "includedLanguages": [
+        "css",
+        "json"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "useCollectionNameAbbreviations",
+      "label": "✨ Abbreviate collection names",
+      "options": [
+        {
+          "label": "Enable",
+          "value": "true",
+          "isDefault": true
+        },
+        {
+          "label": "Disbale",
+          "value": "false"
+        }
+      ],
+      "includedLanguages": [
+        "css",
+        "json"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "collectionNamePrefix",
+      "label": "Collection name prefix",
+      "options": [
+        {
+          "label": "Enable",
+          "value": "true",
+          "isDefault": true
+        },
+        {
+          "label": "Disable",
+          "value": "false"
+        }
+      ],
+      "includedLanguages": [
+        "css"
+      ]
+    },
+    {
+      "itemType": "action",
+      "propertyName": "customVariablePrefix",
+      "label": "Custom variable prefix",
+      "includedLanguages": [
+        "css"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "handleNumbersAsDimensions",
+      "label": "Use dimensions for numbers",
+      "options": [
+        {
+          "label": "Enable",
+          "value": "true",
+          "isDefault": true
+        },
+        {
+          "label": "Disable",
+          "value": "false"
+        }
+      ],
+      "includedLanguages": [
+        "json"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "showCssComments",
+      "label": "Show description as comment",
+      "options": [
+        {
+          "label": "Enable",
+          "value": "true",
+          "isDefault": true
+        },
+        {
+          "label": "Disable",
+          "value": "false"
+        }
+      ],
+      "includedLanguages": [
+        "css"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "colorValueType",
+      "label": "Color value type",
+      "options": [
+        {
+          "label": "rgb",
+          "value": "rgb",
+          "isDefault": true
+        },
+        {
+          "label": "hex",
+          "value": "hex"
+        },
+        {
+          "label": "hsl",
+          "value": "hsl"
+        }
+      ],
+      "includedLanguages": [
+        "css"
+      ]
+    },
+    {
+      "itemType": "select",
+      "propertyName": "generateTextValues",
+      "label": "⚠️ Generate text values",
+      "options": [
+        {
+          "label": "Disable",
+          "value": "false",
+          "isDefault": true
+        },
+        {
+          "label": "Enable",
+          "value": "true"
+        }
+      ],
+      "includedLanguages": [
+        "json",
+        "css"
+      ]
+    }
+  ],
+  "documentAccess": "dynamic-page"
+}

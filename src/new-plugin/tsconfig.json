@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "figma.widget.h",
+    "jsxFragmentFactory": "figma.widget.Fragment",
+    "target": "ES6",
+    "lib": ["ES6"],
+    "strict": true,
+    "typeRoots": ["./node_modules/@types","../../node_modules/@figma", "../lib"],
+  }
+}

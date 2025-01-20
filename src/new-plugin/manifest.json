@@ -1,0 +1,17 @@
+{
+  "name": "Variables & Styles List",
+  "id": "1349000266602674782",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": [
+    "figma"
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "documentAccess": "dynamic-page"
+}

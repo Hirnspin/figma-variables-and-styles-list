@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bs-blue: var(--tts-system-blue-200);
+  --bs-blue-shade: var(--tts-tint-blue-shade-200-black-5);
+  --bs-blue-dark: var(--tts-festool-blue-700);
+  --bs-red: var(--tts-system-red-200);
+  --bs-yellow: var(--tts-system-yellow-200);
+  --bs-green: var(--tts-festool-green-200);
+  --bs-green-dark: var(--tts-festool-green-300);
+  --bs-black: var(--tts-festool-blue-800);
+  --bs-white: var(--tts-system-white-100);
+  --bs-gray: var(--tts-festool-blue-200);
+  --bs-gray-dark: var(--tts-festool-blue-600);
+  --bs-gray-light: var(--tts-festool-blue-100);
+  --bs-gray-100: var(--tts-festool-blue-100);
+  --bs-gray-200: var(--tts-festool-blue-200);
+  --bs-gray-300: var(--tts-festool-blue-300);
+  --bs-gray-400: var(--tts-festool-blue-400);
+  --bs-gray-500: var(--tts-festool-blue-500);
+  --bs-gray-600: var(--tts-festool-blue-600);
+  --bs-gray-700: var(--tts-festool-blue-700);
+  --bs-gray-800: var(--tts-festool-blue-800);
+  --bs-primary: var(--figma-color-bg-brand);
+  --bs-primary-hover: var(--figma-color-bg-brand-hover);
+  --bs-secondary: var(--tts-festool-blue-200);
+  --bs-secondary-hover: var(--tts-tint-blue-shade-200-black-5);
+  --bs-success: var(--bs-green);
+  --bs-info: var(--tts-festool-blue-500);
+  --bs-warning: var(--bs-yellow);
+  --bs-danger: var(--bs-red);
+  --bs-connect: var(--bs-blue);
+  --bs-light: var(--bs-gray-light);
+  --bs-dark: var(--bs-blue-shade);
+  --bs-primary-rgb: var(--tts-festool-green-200-rgb);
+  --bs-secondary-rgb: var(--tts-festool-blue-200-rgb);
+  --bs-success-rgb: var(--tts-festool-green-200-rgb);
+  --bs-info-rgb: var(--tts-festool-blue-500-rgb);
+  --bs-warning-rgb: var(--tts-system-yellow-200-rgb);
+  --bs-danger-rgb: var(--tts-system-red-200-rgb);
+  --bs-light-rgb: var(--tts-festool-blue-100-rgb);
+  --bs-dark-rgb: var(--tts-tint-blue-shade-200-black-5-rgb);
+  --bs-white-rgb: var(--tts-system-white-100-rgb);
+  --bs-black-rgb: var(--tts-festool-blue-800-rgb);
+  --bs-body-color-rgb: var(--tts-festool-blue-700-rgb);
+  --bs-body-bg-rgb: var(--bs-white-rgb);
+  --bs-font-sans-serif: DINWebPro, Verdana, sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: var(--font-size-100);
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: var(--figma-color-text);
+  --bs-body-bg: transparent;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: var(--figma-color-border);
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.25rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-link-color: var(--bs-blue-dark);
+  --bs-link-color-rgb: var(--bs-blue-dark-rgb);
+  --bs-link-decoration: none;
+  --bs-link-hover-color: var(--bs-primary);
+  --bs-link-hover-color-rgb: var(--bs-primary-rgb);
+  --bs-form-focus-color: rgba(var(--bs-primary-rgb), 0.5);
+  --bs-checkbox-size: 2rem;
+  --bs-form-field-focus-box-shadow: 0 0 0 0.25rem var(--bs-form-focus-color);
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+  --bs-box-shadow: var(--tts-shadow-300);
+}
+
+.btn {
+  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-y: 0.375rem;
+  --bs-btn-font-family: ;
+  --bs-btn-font-size: 0.875rem;
+  --bs-btn-font-weight: bold;
+  --bs-btn-line-height: 1.25;
+  --bs-btn-color: var(--bs-blue-dark);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: 0;
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: var(--bs-border-radius);
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.25;
+  --bs-btn-focus-box-shadow: var(--bs-form-field-focus-box-shadow);
+  --bs-btn-focus-scale: 0.985;
+  min-height: 3rem;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out,
+    transform 0.15s ease-in-out;
+}
+
+.btn:focus-visible {
+  color: var(--bs-btn-color);
+  background-color: var(--bs-btn-bg);
+  border-color: var(--bs-btn-border-color);
+  outline: 0;
+  box-shadow: var(--bs-btn-focus-box-shadow);
+}
+
+.btn-primary {
+  --bs-btn-color: var(--figma-color-text, #fff);
+  --bs-btn-bg: var(--bg-primary-btn, #198f51);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--bs-primary-hover);
+  --bs-btn-hover-border-color: var(--bs-primary-hover);
+  --bs-btn-focus-shadow-rgb: var(--bs-primary-rgb);
+  --bs-btn-active-color: var(--bs-btn-color);
+  --bs-btn-active-bg: var(--bs-btn-bg);
+  --bs-btn-active-border-color: var(--bs-btn-bg);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: var(--bs-btn-color);
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
